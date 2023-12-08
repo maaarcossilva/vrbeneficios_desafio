@@ -12,5 +12,4 @@ Funcionalidade: Acessar API da VR Benefícios
         E o usuário pesquisar pela chave typeOfEstablishment
         Entao será retornado um tipo de estabelecimento de forma aleatória
 
-
         

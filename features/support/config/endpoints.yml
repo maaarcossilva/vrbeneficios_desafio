@@ -1,3 +1,4 @@
 url_portal: 'https://portal.vr.com.br/api-web/comum/enumerations/VRPAT'
 key: 'typeOfEstablishment'
 
+# Chaves utilizadas para deixar o código dinamico

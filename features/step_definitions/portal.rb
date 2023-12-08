@@ -10,7 +10,6 @@ end
   
 # Verifica se o serviço retornou com sucesso
 Quando('o serviço retornar sucesso') do
-    expect(@response_portal).not_to be_nil
     expect(@response_portal.code).to eql 200
 end
   
@@ -19,10 +18,13 @@ Quando('o usuário pesquisar pela chave typeOfEstablishment') do
   expect(@response_portal).to have_key(CONFIG['key'])
 end
   
-# Retorna um tipo de estabelecimento de forma aleatória
+# Retorna um tipo de estabelecimento de forma aleatória, levando em consideração um "tipo" como Key, Name e Label
 Entao('será retornado um tipo de estabelecimento de forma aleatória') do
   @response_establishment = @response_portal['typeOfEstablishment']
   random_value = @response_establishment&.sample
   puts random_value || "Nenhum valor retornado"
 end
+
+
+
 
