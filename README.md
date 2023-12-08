@@ -49,7 +49,7 @@ Algumas sugestões de plugins para deixar o projeto mais bonito e colorido, faci
 
 2.4. Dentro da pasta "step_definitions" foi criado um arquivo chamado "portal.rb" que conterá os códigos referente ao cenario criado no passo anterior.
 
-![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/418394a0-f088-42de-82cf-b257054385ac)
+![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/f79db2e9-0fa5-44b9-a91a-ae31713dba85)
 
 3. Execução do Projeto
 
@@ -57,20 +57,21 @@ Terá 2 formas que poderá ser executado.
 
 3.1. Executando o teste baseado na tag "@test" que foi adicionado, podemos executar com o comando "cucumber @test".
 
-3.1.1. Primeira execução - Retornou o valor "{"key"=>"REFEICAO|MEXICANA", "name"=>"MEXICANA", "label"=>"Refeição - Mexicana"}"
+3.1.1. Primeira execução - Retornou o valor "{"key"=>"REFEICAO|RESTAURANT", "name"=>"RESTAURANTE", "label"=>"Refeição - Restaurante"}"
 
-![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/7ce3094c-43a1-4e1d-a58d-0fd4f4182b50)
+![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/1fd1fac7-87f6-4e21-9df6-169b8a51d178)
 
-3.1.2. Segunda execução - Retornou o valor "{"key"=>"REFEICAO|SAUDAVEL", "name"=>"SAUDAVEL", "label"=>"Refeição - Saudável"}"
+3.1.2. Segunda execução - Retornou o valor "{"key"=>"REFEICAO|CONVENIENC", "name"=>"CONVENIENCIA", "label"=>"Refeição - Conveniência"}"
 
-![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/53e95a3a-5d0d-40f2-83ad-0cb9c7763596)
+![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/e7308084-3858-452b-ac0e-711cc544d11f)
 
 3.2. Como só tem um arquivo, e um cenário podemos executar diretamente com o comando "cucumber" também.
 
 3.2.1. Primeira execução - Retornou o valor "{"key"=>"REFEICAO|PORTUGUESA", "name"=>"PORTUGUESA", "label"=>"Refeição - Portuguesa"}"
 
-![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/3f2cd58b-551f-496d-9200-e5e401a308ae)
+![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/3d1e4cff-2d8d-470c-b692-3e4fd6c75e09)
 
-3.2.2. Segunda execução - Retornou o valor "{"key"=>"REFEICAO|MEDITERRAN", "name"=>"MEDITERRANEA", "label"=>"Refeição - Mediterrânea"}"
+3.2.2. Segunda execução - Retornou o valor "{"key"=>"REFEICAO|ASIATICOS", "name"=>"ASIATICOS", "label"=>"Refeição - Asiáticos"}"
 
-![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/2cd82c07-2a5a-49df-814c-6d6b0df7f59f)
+![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/c8dd16e3-950c-4144-bfb1-085bc1e734e6)
+
