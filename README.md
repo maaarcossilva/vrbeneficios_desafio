@@ -4,6 +4,7 @@ Desafio de processo seletivo da VR Beneficios
 Para criar um cenário usando Cucumber + Ruby + HTTParty, você pode seguir estas etapas:
 
 Foi utilizado o VSCode.
+
 Algumas sugestões de plugins para deixar o projeto mais bonito e colorido, facilitando o entendimento como um todo.
 
 ![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/87c88b60-c7b8-4559-9ae8-88744b3166a3)
@@ -13,18 +14,22 @@ Algumas sugestões de plugins para deixar o projeto mais bonito e colorido, faci
 1. Instalar as dependências:
 
 1.1. Instalação do Ruby >> https://rubyinstaller.org/downloads/
-1.2  Instale o Bundle, com o seguinte comando  "gem install bundler"
-1.2. Crie um novo arquivo chamado Gemfile (sem extensão).
-1.3. Adicione as dependências do seu projeto ao arquivo Gemfile usando a sintaxe do Bundler.
+
+1.2. Instale o Bundle, com o seguinte comando  "gem install bundler".
+
+1.3. Crie um novo arquivo chamado Gemfile (sem extensão).
+
+1.4. Adicione as dependências do seu projeto ao arquivo Gemfile usando a sintaxe do Bundler.
 
 ![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/751da4cd-3a69-4206-9a68-b73fc21bd0aa)
 
-1.4. Depois de criar o Gemfile e especificar suas dependências, você pode usar o Bundler, uma ferramenta de gerenciamento de dependências Ruby, para instalar todas as gems listadas. Para isso, abra o Terminal ou Prompt de Comando: "bundle install".
-1.5. Com isso todas as dependências foram instaladas.
+1.5. Depois de criar o Gemfile e especificar suas dependências, você pode usar o Bundler, uma ferramenta de gerenciamento de dependências Ruby, para instalar todas as gems listadas. Para isso, abra o Terminal ou Prompt de Comando: "bundle install".
+
+1.6. Com isso todas as dependências foram instaladas.
 
 ![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/6b6a5999-024a-4141-a59f-f17cb308440e)
 
-1.6. Para configuração do cucumber, basta digitar "cucumber --init", então será criada algumas pastas padrões.
+1.7. Para configuração do cucumber, basta digitar "cucumber --init", então será criada algumas pastas padrões.
 
 ![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/4e9473c4-b441-46bf-8dfb-6e0920cb9637)
 
@@ -51,6 +56,7 @@ Algumas sugestões de plugins para deixar o projeto mais bonito e colorido, faci
 Terá 2 formas que poderá ser executado.
 
 3.1. Executando o teste baseado na tag "@test" que foi adicionado, podemos executar com o comando "cucumber @test".
+
 3.1.1. Primeira execução - Retornou o valor "{"key"=>"REFEICAO|MEXICANA", "name"=>"MEXICANA", "label"=>"Refeição - Mexicana"}"
 
 ![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/7ce3094c-43a1-4e1d-a58d-0fd4f4182b50)
@@ -60,6 +66,7 @@ Terá 2 formas que poderá ser executado.
 ![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/53e95a3a-5d0d-40f2-83ad-0cb9c7763596)
 
 3.2. Como só tem um arquivo, e um cenário podemos executar diretamente com o comando "cucumber" também.
+
 3.2.1. Primeira execução - Retornou o valor "{"key"=>"REFEICAO|PORTUGUESA", "name"=>"PORTUGUESA", "label"=>"Refeição - Portuguesa"}"
 
 ![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/3f2cd58b-551f-496d-9200-e5e401a308ae)
