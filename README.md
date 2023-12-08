@@ -67,11 +67,11 @@ Terá 2 formas que poderá ser executado.
 
 3.2. Como só tem um arquivo, e um cenário podemos executar diretamente com o comando "cucumber" também.
 
-3.2.1. Primeira execução - Retornou o valor "{"key"=>"REFEICAO|PORTUGUESA", "name"=>"PORTUGUESA", "label"=>"Refeição - Portuguesa"}"
+3.2.1. Primeira execução - Retornou o valor "{"key"=>"REFEICAO|ASIATICOS", "name"=>"ASIATICOS", "label"=>"Refeição - Asiáticos"}"
 
 ![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/3d1e4cff-2d8d-470c-b692-3e4fd6c75e09)
 
-3.2.2. Segunda execução - Retornou o valor "{"key"=>"REFEICAO|ASIATICOS", "name"=>"ASIATICOS", "label"=>"Refeição - Asiáticos"}"
+3.2.2. Segunda execução - Retornou o valor "{"key"=>"REFEICAO|PORTUGUESA", "name"=>"PORTUGUESA", "label"=>"Refeição - Portuguesa"}"
 
 ![image](https://github.com/maaarcossilva/vrbeneficios_desafio/assets/89421174/c8dd16e3-950c-4144-bfb1-085bc1e734e6)
 
